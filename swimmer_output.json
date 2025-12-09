@@ -1,0 +1,191 @@
+{
+  "component": "Swimmer/Search",
+  "props": {
+    "errors": {},
+    "auth": {
+      "user": null
+    },
+    "locale": "sv",
+    "country": "swe",
+    "menu_items": [
+      "statistics",
+      "records",
+      "competitions",
+      "calendar",
+      "swimmers",
+      "clubs",
+      "clubchanges",
+      "to_federation_website",
+      "score_cups"
+    ],
+    "score_cups": [
+      {
+        "id": 1,
+        "created_at": "2025-08-21T11:10:36.000000Z",
+        "updated_at": "2025-08-22T13:25:24.000000Z",
+        "name": "Medleycupen",
+        "display_at_tempus_open": 1,
+        "min_aqua_points": 1500,
+        "from_age": 13
+      },
+      {
+        "id": 3,
+        "created_at": "2025-12-02T13:22:46.000000Z",
+        "updated_at": "2025-12-02T15:28:51.000000Z",
+        "name": "Distanscupen",
+        "display_at_tempus_open": 1,
+        "min_aqua_points": 600,
+        "from_age": 13
+      }
+    ],
+    "clubs_url": "https://svensksimidrott.se/vara-simidrotter/simning/om/hitta-din-forening",
+    "federation": {
+      "federation_name": "Svensk Simidrott",
+      "federation_address": "Sickla allé 2-4",
+      "federation_zip": "13165",
+      "federation_city": "Nacka",
+      "federation_phone": "010 476 53 00",
+      "federation_email": "info@svensksimidrott.se",
+      "federation_website": "https://svensksimidrott.se/",
+      "federation_logo": "//images/svensksimidrott.png"
+    },
+    "active_sport_categories": [
+      "swimming",
+      "diving",
+      "artistic",
+      "open_water"
+    ],
+    "replace_tempus_open_logo": null,
+    "footer_image": null,
+    "categories": {
+      "1": "Simning",
+      "2": "Masters simning",
+      "3": "Vattenpolo",
+      "4": "Masters vattenpolo",
+      "5": "Simhopp",
+      "6": "Masters simhopp",
+      "7": "Konstsim",
+      "8": "Masters konstsim",
+      "9": "Öppet vatten",
+      "10": "Masters öppet vatten"
+    },
+    "classes": {
+      "1": "Herrar",
+      "2": "Damer"
+    },
+    "statuses": {
+      "1": "Aktiv",
+      "2": "Ej aktiv"
+    },
+    "swimmers": {
+      "data": [
+        {
+          "id": 248126,
+          "swimmer_id": 248126,
+          "name": "Victoria Johansson",
+          "first_name": "Victoria",
+          "last_name": "Johansson",
+          "license": "AO3890",
+          "birth_year": "1990",
+          "club_name": "Linköpings Allmänna SS",
+          "class_name": "Damer",
+          "swim_clubs_label": "Linköpings Allmänna SS"
+        },
+        {
+          "id": 262266,
+          "swimmer_id": 262266,
+          "name": "Victoria Johansson",
+          "first_name": "Victoria",
+          "last_name": "Johansson",
+          "license": "AR8893",
+          "birth_year": "1993",
+          "club_name": "Eslövs Simsällskap",
+          "class_name": "Damer",
+          "swim_clubs_label": "Eslövs Simsällskap"
+        },
+        {
+          "id": 269397,
+          "swimmer_id": 269397,
+          "name": "Victor Johansson",
+          "first_name": "Victor",
+          "last_name": "Johansson",
+          "license": "AA7798",
+          "birth_year": "1998",
+          "club_name": "Jönköpings Simsällskap",
+          "class_name": "Herrar",
+          "swim_clubs_label": "Jönköpings Simsällskap"
+        },
+        {
+          "id": 278853,
+          "swimmer_id": 278853,
+          "name": "Victor Johansson",
+          "first_name": "Victor",
+          "last_name": "Johansson",
+          "license": "AE7398",
+          "birth_year": "1998",
+          "club_name": "Falköpings Simsällskap",
+          "class_name": "Herrar",
+          "swim_clubs_label": "Falköpings Simsällskap"
+        },
+        {
+          "id": 292809,
+          "swimmer_id": 292809,
+          "name": "Victor Johansson",
+          "first_name": "Victor",
+          "last_name": "Johansson",
+          "license": "AJ6501",
+          "birth_year": "2001",
+          "club_name": "",
+          "class_name": "Herrar",
+          "swim_clubs_label": "Karlstads Simsällskap"
+        },
+        {
+          "id": 308370,
+          "swimmer_id": 308370,
+          "name": "Victoria Johansson",
+          "first_name": "Victoria",
+          "last_name": "Johansson",
+          "license": "BJ2604",
+          "birth_year": "2004",
+          "club_name": "Klippans Simsällskap",
+          "class_name": "Damer",
+          "swim_clubs_label": "Klippans Simsällskap"
+        }
+      ],
+      "links": {
+        "first": "https://www.tempusopen.se/swimmers?page=1",
+        "last": "https://www.tempusopen.se/swimmers?page=1",
+        "prev": null,
+        "next": null
+      },
+      "meta": {
+        "current_page": 1,
+        "from": 1,
+        "last_page": 1,
+        "links": [
+          {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+          },
+          {
+            "url": "https://www.tempusopen.se/swimmers?page=1",
+            "label": "1",
+            "active": true
+          },
+          {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+          }
+        ],
+        "path": "https://www.tempusopen.se/swimmers",
+        "per_page": 20,
+        "to": 6,
+        "total": 6
+      }
+    }
+  },
+  "url": "/swimmers",
+  "version": "0d60a0cef251f76c204b2a1cd16b0d69"
+}
